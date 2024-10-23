@@ -1,11 +1,11 @@
 *{
-	margin: 5px;
+	margin: 0px;
 	box-sizing: border-box;
 }
 
 body{
-	height: 100vh;
-	background: gray;
+	height: 150vh;
+	background-color: white;
 	font-family: sans-serif;
 	text-align: center;
 	color: navy;
@@ -15,43 +15,58 @@ body{
 }
 
 header{
-	background: white;
-	padding: 2em 0 2em 0;
+    background: white;
+    padding: 0 2em 0 2em;
 }
 
-.main{
-	display: flex;
-	flex: 1;
-}
-
-.left{
-	background: white;
-	padding: 3em 0 3em 0;
-	flex: 1 1 100px;
-}
+nav{
+    background: white;
+    text-align: right;
+    font-size: medium;
+} 
 
 main{
-	background: white;
-	padding: 3em 0 3em 0;
-	flex: 5 5 150px;
+    display: flex;
+    flex: 1;
+    padding: 0 2em 0 2em;
 }
 
-.right{
-	background: white;
-	padding: 3em 0 3em 0;
-	flex: 1 1 100px;
+article{
+    background: white;
+    padding: 0 0 0 0;
+    text-align: left;
+    font-size: large;
+    flex: 5 5 150px;
 }
+
+aside{
+    background: white;
+    padding: 0 1em 1em 0.5em;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    flex: 1 1 100px;
+    
+}
+
+.contact{
+    font-size: medium;
+    text-align: left;
+}
+
 
 footer{
-	background: white;
-	padding: 2em 0 2em 0;
+    background: white;
+    font-size: medium;
+    font-style: italic;
+    text-align: center;
 }
 
-@media all	and (max-width: 550px){
-	.main{
-		flex-direction: column;
-	}
-	main{
-		padding: 5em 0 5em 0;
-	}
+@media all and (max-width: 900px){
+    main{
+        flex-direction: column;
+    }
+    article{
+        padding: 1em 0 1em 0;
+    }
 }
