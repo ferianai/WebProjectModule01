@@ -19,10 +19,11 @@ header{
     padding: 0 2em 0 2em;
 }
 
-nav{
+.nav_link{
     background: white;
     text-align: right;
-    font-size: medium;
+    font-size: medium; 
+    padding: 1em 0 1em 0;
 } 
 
 main{
@@ -45,7 +46,7 @@ aside{
     text-align: left;
     font-size: 20px;
     color: black;
-    flex: 1 1 100px;
+    flex: 1 1 80px;
    
     
 }
@@ -53,6 +54,10 @@ aside{
 .contact{
     font-size: medium;
     text-align: left;
+    background-color: rgb(190, 206, 190);
+    grid-area: auto;
+    padding: 0 1em 0 1em; 
+    margin-bottom: 2em;
 }
 
 .submit{
