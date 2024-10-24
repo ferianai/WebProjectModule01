@@ -9,8 +9,8 @@ Welcome to the Exploring Forests and Landscapes website! This project is designe
 
 Built with HTML and enhanced with a touch of CSS, this website features a clean and user-friendly design, making it easy for anyone to explore. Whether you're a nature enthusiast or just curious about the outdoors, this project serves as a great introduction to web development while promoting environmental awareness. Dive in and start your journey through the beauty of forests and landscapes!
 
-## 🛠 Skills
-HTML, CSS, Javascript, Phyton
+## 🛠 Web's Code
+HTML, CSS
 
 
 ## 🔗 Links
