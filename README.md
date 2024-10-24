@@ -1,9 +1,13 @@
-# WebProjectW01
+<img src="https://i1.adis.ws/i/canon/future_of_forests_header_16x9_dc14bbe1e35040f79bf566eedaf5c8f7?$hero-header-half-16by9-dt$" alt="forest" height="200" width="100%">
+
+# About WebProjectW01
 Module 01 Assignment Brief - Project Revou
 
-# 🚀 About Me
+# 🚀 Exploring Forests and Landscapes
 
-My professional background is rooted in the telecommunications industry, where I spent a decade honing my skills as a meticulous and results-oriented individual. Transitioning into software engineering, I have embraced the opportunity to expand my technical expertise. As a detail-oriented engineer, I take pride in producing high-quality work. My eagerness to learn and explore new technologies drives me to stay at the forefront of innovation. I thrive in collaborative environments and excel under pressure, effectively leveraging teamwork to achieve project goals. With my unwavering commitment to delivering exceptional results and a passion for solving complex challenges, I am well-suited to contribute to the success of any software engineering team.
+Welcome to the Exploring Forests and Landscapes website! This project is designed to inspire a deeper appreciation for the beauty and diversity of our natural environments. Through stunning imagery and informative content, the site showcases various forests and landscapes, highlighting their unique ecosystems and the importance of conservation. Visitors can navigate through different sections to discover fascinating facts and stunning visuals that celebrate the wonders of nature.
+
+Built with HTML and enhanced with a touch of CSS, this website features a clean and user-friendly design, making it easy for anyone to explore. Whether you're a nature enthusiast or just curious about the outdoors, this project serves as a great introduction to web development while promoting environmental awareness. Dive in and start your journey through the beauty of forests and landscapes!
 
 ## 🛠 Skills
 HTML, CSS, Javascript, Phyton
