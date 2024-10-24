@@ -9,14 +9,14 @@ body{
 	font-family: sans-serif;
 	text-align: center;
 	color: navy;
-	font-size: 24px;
+	/* font-size: 24px; */
 	display: flex;
 	flex-direction: column;
 }
 
 header{
     background: white;
-    padding: 0 2em 0 2em;
+    padding: 0 2em 2em 2em;
 }
 
 .nav_link{
@@ -36,7 +36,6 @@ article{
     background: white;
     padding: 0 0 0 0;
     text-align: left;
-    font-size: large;
     flex: 5 5 150px;
 }
 
