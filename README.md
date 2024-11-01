@@ -72,7 +72,12 @@ I use structire and semantics page and give class for each section.
   </header>
 ```
 
+## 🔗 Links
+[![WildlifeSocietyWeb](/documentation/logo.png)](https://ferianai.github.io/WildlifeSociety/)
+
+
 ## Page Overview applying Responsive Design with media query 
+
 ### Desktop Template
 ![Desktop](/documentation/desktop.png)
 
@@ -81,5 +86,6 @@ I use structire and semantics page and give class for each section.
 
 ### Mobile Template
 ![Mobile](/documentation/mobile.png)
+
 
 
