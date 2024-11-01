@@ -1,22 +1,25 @@
 # A Community Blog for Environmental Change Profile Website
-Save the World, this is community blog dedicated to promoting environmental awareness and sustainable living website build with HTML and CSS. It includes sections for Home, About, Galery, and Contact.
+Wildlife Society, this is community blog dedicated to promoting environmental awareness and sustainable living website build with HTML and CSS. It includes sections for Home, About, Project, Team, Galery, and Contact.
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Environmental Issues](#environmental_issues)
-3. [Sustainable Living](#sustainable_living)
-4. [Blog Archive](#blog_archive)
+1. [Introduction](#home)
+2. [About Us](#about)
+3. [What We Do](#project)
+4. [Team](#team)
+5. [Galery](#galery)
+6. [Contact Us](#contact)
 
-## Features of Save the World Blog
+
+## Features of Wildlife Society Blog
 1. User-Friendly Navigation with intuitive layout and design for easy browsing.
 2. Commenting System alow reader to leave comments and feedback.
-3. Galery with multimedia content.
-4. Regular Newslater.
+3. Galery about news and developments in wildlife conservation content.
+4. Regular Project and Programe for world between people and nature.
 5. Contact Form with service section.
 6. Footer with copyright information.
 
 ## Technologies Used
-- HTML5
+- HTML5 and CSS
 
 ## Setup
 1. Clone the repository:
@@ -34,7 +37,7 @@ Save the World, this is community blog dedicated to promoting environmental awar
 4. **Image Folder** (img folder will located in the repository module-1-ferianai) to call it into html you can use " img/ " :
     ```bash
     
-    <img src=img/forest1.jpg>
+    <img src="img/tiger-banner-web.jpg" alt="tiger">
     ```
 
 ## Code
@@ -51,9 +54,9 @@ I use structire and semantics page and give class for each section.
           <i class="fas fa-bars" id="btn"></i>
           <i class="fas fa-times" id="cancel"></i>
         </label>
-        <div class="logo">
-          <i class="fa fa-leaf" aria-hidden="true" id="logo"></i>logo
-        </div>
+        <a class="logo" href="#">
+          <i class="fa fa-leaf" aria-hidden="true" id="logo"></i>WILDLIFE SOCIETY
+        </a>
         <div class="navbar">
           <ul>
             <li> <a href="#home">Home</a> </li>
@@ -69,11 +72,14 @@ I use structire and semantics page and give class for each section.
   </header>
 ```
 
-## Page Overview
-### Home Page
-![Home](/documentation/home.png)
+## Page Overview applying Responsive Design with media query 
+### Desktop Template
+![Desktop](/documentation/desktop.png)
 
-### Contact/Form section
-![Form](/documentation/form.png)
+### Tablet Template
+![Tablet](/documentation/tablet.png)
+
+### Mobile Template
+![Mobile](/documentation/mobile.png)
 
 
