@@ -43,19 +43,30 @@ I use structire and semantics page and give class for each section.
 > example :
 
 ```bash
-<header>
-        <nav>
-            <ul class="nav_link">
-                <a href="index.html">Home</a>
-                <a href="index.html">About</a>
-                <a href="index.html">Galery</a>
-                <a href="index.html">Contact</a>
-            </ul>
-            <div class="logo">
-                <h1 class="logo-title">Save The Planet</h1>
-            </div>
-        </nav>
-    </header>
+<header class="header" id="top-page">
+    <div class="container-header">
+      <nav class="nav mobile-container">
+        <input type="checkbox" id="check">
+        <label for="check" class="labelbar">
+          <i class="fas fa-bars" id="btn"></i>
+          <i class="fas fa-times" id="cancel"></i>
+        </label>
+        <div class="logo">
+          <i class="fa fa-leaf" aria-hidden="true" id="logo"></i>logo
+        </div>
+        <div class="navbar">
+          <ul>
+            <li> <a href="#home">Home</a> </li>
+            <li> <a href="#about">About</a> </li>
+            <li> <a href="#project">Project</a> </li>
+            <li> <a href="#team">Team</a> </li>
+            <li> <a href="#galery">Galery</a> </li>
+            <li> <a href="#contact">Contact</a> </li>
+          </ul>          
+        </div>
+      </nav>
+    </div>
+  </header>
 ```
 
 ## Page Overview
