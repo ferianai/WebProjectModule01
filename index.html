@@ -19,9 +19,9 @@
           <i class="fas fa-bars" id="btn"></i>
           <i class="fas fa-times" id="cancel"></i>
         </label>
-        <div class="logo">
-          <i class="fa fa-leaf" aria-hidden="true" id="logo"></i>logo
-        </div>
+        <a class="logo" href="#">
+          <i class="fa fa-leaf" aria-hidden="true" id="logo"></i>WILDLIFE SOCIETY
+        </a>
         <div class="navbar">
           <ul>
             <li> <a href="#home">Home</a> </li>
@@ -43,7 +43,7 @@
     <section class="banner" id="home">
       <div class="container-banner">
         <div class="banner-img">
-          <img src="img/tiger-banner-web.jpg" alt="">
+          <img src="img/tiger-banner-web.jpg" alt="tiger">
         </div>
         <div class="banner-text">
           <div class="banner-title">
@@ -88,7 +88,7 @@
           <span class="linewhite"></span>
         </div>
         <div class="subcontent-project">
-          <h3 style="text-align: right;">Programs & Projects</h3>
+          <h3>Programs & Projects</h3>
           <p>Our programs and projects focus on wildlife conservation, habitat restoration, and community education. We engage in hands-on initiatives such as wildlife rescue, reforestation, and local outreach to promote sustainable practices. By partnering with communities and organizations, we aim to protect endangered species and foster a deep connection between people and nature. Join us in making a positive impact!</p>
         </div>
 
@@ -173,10 +173,9 @@
           <p>We’d love to hear from you! Whether you have questions, want to get involved, or need more information about our programs, feel free to reach out. You can contact us via email, phone, or by filling out the form below. Together, we can make a difference for wildlife and their habitats!</p>
         </div>
         <div class="contact-section">
-          <div class="contact-form">
 
             <!-- Form Set Start-->
-            <form class="contact-us" action="/api/server" method="post">
+            <form class="contact-form" action="/api/server" method="post">
 
               <!-- input text type -->
               <div class="textinput">
@@ -192,7 +191,7 @@
               <!-- Select Button -->
               <div class="selectbutton">
                 <label for="gender">Gender:</label>
-                <select id="gender" name="gender" class="genderbutton">
+                <select class="genderbutton" id="gender" name="gender" >
                     <option value="Male">Male</option>
                     <option value="Female">Female</option>
                     <option value="NA">Don't want to tell</option>
@@ -230,11 +229,11 @@
               <!-- Submmit and Reset Button -->
               <div class="submit-button">
                 <input class="btnsubmit reset" type="reset" value="Reset">
-                <input class="btnsubmit submit" type="submit" value="Submit"><br><br>
+                <input class="btnsubmit submit" type="submit" value="Submit">
               </div>
             </form>
             <!-- Form Set End-->
-          </div>
+
           <div class="contact-info">
             <div class="contactitem media"><i class="fa fa-map-marker-alt media-left media-right-margin"></i>
               <div class="media-body">
