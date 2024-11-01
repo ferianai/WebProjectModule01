@@ -172,7 +172,7 @@ label #cancel{
     font-size: 30px;
     float: right;
     line-height: 80px;
-    margin-right: 40px;
+    margin-right: 20px;
     cursor: pointer;
     display: none;
 }
@@ -309,8 +309,8 @@ label #cancel{
     'galery-item1 galery-item1 galery-item3'
     'galery-item2 galery-item4 galery-item4';
     justify-content: center;
-    gap: 10px;
-    padding-bottom: 30px;
+    gap: 20px;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -319,9 +319,21 @@ label #cancel{
     height: 100%;
     object-fit: cover;
     display: block;
-    padding-top: 0.5rem;
-    padding-top: 2rem;
+    padding-top: 20rpx;
 }
+
+.galery-img-con {
+    background-color: var(--white);
+    padding-bottom: 30px;
+}
+
+figcaption {
+    color: var(--green);
+    margin-top: 10px;
+    font-size: 12px;
+    font-style: italic ;
+}
+
 .galery-item1{ grid-area: galery-item1;}
 .galery-item2{ grid-area: galery-item2;}
 .galery-item3{ grid-area: galery-item3;}
@@ -517,7 +529,7 @@ textarea{
         font-size: 17px;
     }
     #check:checked ~ .navbar ul{
-        right: 0;
+        right: 10px;
     }
     #check:checked ~ label #btn{
         display: none;
@@ -576,6 +588,10 @@ textarea{
     .galery-item2{ grid-area: galery-item2;}
     .galery-item3{ grid-area: galery-item3;}
     .galery-item4{ grid-area: galery-item4;}
+
+    .footer p{
+        text-align: center;
+    }
 
 }
     
