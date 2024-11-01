@@ -308,13 +308,12 @@ label #cancel{
 /* contact start */
 .contact-section{
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 .contact-us{
     display: flex;
     flex-direction: column;
-    width: 100%;
 }
 
 .textinput input{
@@ -324,7 +323,6 @@ label #cancel{
     background: var(--white);
     border-radius: 10px;
     margin-bottom: 1rem;
-    
 }
 textarea{
     resize: none;
@@ -360,7 +358,6 @@ textarea{
 	padding: 5rem 5rem 5rem 5rem;
 	border-radius: 8px;
 	background: var(--green);
-    width: 40rem;
     color: var(--white);
 }
 .media-body{
